@@ -36,7 +36,7 @@
             <Image url="@../images/weaponChest.png" />
          </image>
       </ImageView>
-      <Label fx:id="myScore" layoutX="324.0" layoutY="53.0" text="20">
+      <Label fx:id="myScore" layoutX="336.0" layoutY="53.0" text="0">
          <font>
             <Font size="42.0" />
          </font>
