@@ -1,0 +1,15 @@
+Interfaces
+Abstract Class
+
+Constructor Overloading
+
+Inheritance
+Composition + Association + Dependency
+
+private, protected, final
+
+anonymous objects, Lambda-expressions
+
+Exception handling - throws, try-catch
+
+serialization-deserialization

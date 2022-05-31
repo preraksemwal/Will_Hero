@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="scenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="444.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MenuController">
+   <children>
+      <ImageView fitHeight="444.0" fitWidth="690.0" opacity="0.85" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/gameBackground.PNG" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="444.0" opacity="0.31" strokeType="INSIDE" strokeWidth="10.0" width="690.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9648100137710571" green="0.9800000190734863" blue="0.06859999895095825" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.008528265170753002" green="0.054495614022016525" blue="0.09210526198148727" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke></Rectangle>
+      <Line fx:id="line2" endX="100.0" layoutX="330.0" layoutY="172.0" startX="-100.0" stroke="WHITE" />
+      <Line fx:id="line3" endX="51.0" layoutX="363.0" layoutY="209.0" startX="-50.0" stroke="WHITE" />
+      <Line fx:id="line4" endX="100.0" layoutX="294.0" layoutY="247.0" startX="-100.0" stroke="WHITE" />
+      <Line fx:id="line6" endX="100.0" layoutX="394.0" layoutY="328.0" startX="-100.0" stroke="WHITE" />
+      <Line fx:id="line7" endX="100.0" layoutX="380.0" layoutY="368.0" startX="-100.0" stroke="WHITE" />
+      <Line fx:id="line5" endX="16.0" layoutX="450.0" layoutY="290.0" startX="-189.0" stroke="WHITE" />
+      <Line fx:id="line1" endX="100.0" layoutX="380.0" layoutY="117.0" startX="-100.0" stroke="WHITE" />
+      <ImageView fx:id="movingImage" fitHeight="115.0" fitWidth="128.0" layoutX="152.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" x="-1.0">
+         <image>
+            <Image url="@../images/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="newGameImageView" fitHeight="150.0" fitWidth="200.0" layoutX="420.0" layoutY="89.0" onMouseClicked="#newGame" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/newGameButton.png" />
+         </image>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="loadSavedGameImageView" fitHeight="150.0" fitWidth="200.0" layoutX="420.0" layoutY="194.0" onMouseClicked="#loadGame" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/loadSavedGameButton.png" />
+         </image>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="exitGameImageView" fitHeight="150.0" fitWidth="200.0" layoutX="420.0" layoutY="300.0" onMouseClicked="#exitGame" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/exitGameButton.png" />
+         </image>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#132339" height="12.0" layoutY="433.0" stroke="#1d395b" strokeType="INSIDE" strokeWidth="0.0" width="690.0" />
+   </children>
+</AnchorPane>

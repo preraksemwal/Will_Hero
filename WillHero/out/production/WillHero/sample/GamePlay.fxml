@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="444.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GamePlayController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000e1b" height="12.0" layoutY="433.0" stroke="BLACK" strokeType="INSIDE" width="690.0" />
+      <ImageView fitHeight="444.0" fitWidth="690.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/gameBackground.PNG" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#284e72" height="259.0" layoutY="185.0" opacity="0.46" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="690.0" />
+      <ImageView fx:id="myIslandView1" fitHeight="159.0" fitWidth="222.0" layoutX="10.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Island1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myIslandView3" fitHeight="159.0" fitWidth="222.0" layoutX="509.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Island1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myTNT" fitHeight="61.0" fitWidth="36.0" layoutX="366.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/TNT.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myChest" fitHeight="26.0" fitWidth="71.0" layoutX="633.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/weaponChest.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="myScore" layoutX="324.0" layoutY="53.0" text="20">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="36.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pauseButton.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myIslandView2" fitHeight="220.0" fitWidth="177.0" layoutX="280.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Island2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="myOrc" fitHeight="36.0" fitWidth="43.0" layoutX="551.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/greenOrc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="36.0" layoutX="605.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/coin.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="myCoinCount" layoutX="643.0" layoutY="5.0" prefHeight="26.0" prefWidth="59.0" text="0" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="myHero" fitHeight="36.0" fitWidth="46.0" layoutX="126.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/hero.PNG" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="dummy1" arcHeight="5.0" arcWidth="5.0" height="444.0" opacity="0.88" stroke="BLACK" strokeType="INSIDE" width="690.0" />
+      <ImageView fx:id="dummy2" fitHeight="285.0" fitWidth="248.0" layoutX="187.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Island3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dummy3" fitHeight="107.0" fitWidth="111.0" layoutX="299.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/greenOrc.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dummy4" fitHeight="150.0" fitWidth="200.0" layoutX="418.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/orcThought1.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="dummy5" layoutX="262.0" layoutY="400.0" prefHeight="26.0" prefWidth="171.0" text="click to play" textFill="WHITE">
+         <font>
+            <Font name="Consolas Italic" size="22.0" />
+         </font></Label>
+      <Rectangle fx:id="dummy6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="444.0" onMouseClicked="#onClickStartGame" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="690.0" />
+   </children>
+</AnchorPane>
