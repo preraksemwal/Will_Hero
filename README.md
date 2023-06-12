@@ -4,7 +4,6 @@ This project is a JavaFX clone of the renowned game "**Will Hero**" offering vis
 
 - JavaFX and Scene Builder: Utilized modern JavaFX framework and Scene Builder for efficient UI development.<br/>
 - Object-Oriented Programming: Implemented using OOPS principles to ensure modularity, maintainability, and extensibility of the code.<br/>
-- - Stunning Visuals: Immerse yourself in the vibrant and visually appealing world of the game.<br/>
 
 [YouTube Video Link](https://youtu.be/DGKwRpVyZYY)  <br/>
 [Presentation Link](https://docs.google.com/presentation/d/1pXEsrOYLgVVvHbM5UaJR6nhW5arHVTBG/edit?usp=sharing&ouid=101372220204734048768&rtpof=true&sd=true)<br/><br/>
