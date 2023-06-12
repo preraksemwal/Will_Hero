@@ -7,6 +7,6 @@ This project is a JavaFX clone of the renowned game "**Will Hero**" offering vis
 
 [Demo Video](https://youtu.be/DGKwRpVyZYY)  <br/>
 
-![will_hero1](https://github.com/preraksemwal/Will_Hero/assets/77500750/bdf2b2cb-f420-44f1-bd15-3bc12683493f)
-![will_hero2](https://github.com/preraksemwal/Will_Hero/assets/77500750/337ee034-427e-422a-bbd8-14208aa2d059)
-![will_hero3](https://github.com/preraksemwal/Will_Hero/assets/77500750/4f46d45d-a5d0-4ccf-85cf-27cd2fea3dd0)
+![gif1](https://github.com/preraksemwal/Will_Hero/assets/77500750/b175044d-24d8-4a54-9cf8-232beaae8cb3)
+![gif2](https://github.com/preraksemwal/Will_Hero/assets/77500750/1ef968ac-a087-4b8b-a23b-78680b0e558b)
+![gif3](https://github.com/preraksemwal/Will_Hero/assets/77500750/40591b39-a2aa-42fb-a364-83b9b9ba515b)
