@@ -7,6 +7,8 @@ This project is a JavaFX clone of the renowned game "**Will Hero**" offering vis
 ### :sparkles: Features
 
 - Incorporates **_Serialization_** and implemented using **_OOPS_** principles to ensure modularity, maintainability, and extensibility of the code.<br/>
-- Utilized modern **JavaFX** framework and **Scene Builder** for efficient UI development.<br/>
+- Utilized modern **JavaFX** framework and **Scene Builder** for efficient UI development.<br/><br/>
 
+![image](https://github.com/user-attachments/assets/122c8d14-27f0-41e4-a4f7-f8bd9651b75c)
+<br/><br/>
 [Demo Video](https://youtu.be/DGKwRpVyZYY)  <br/>
